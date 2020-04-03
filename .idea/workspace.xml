@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99402b8e-210e-4a89-9a4f-8c8869303b5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,8 @@
       <workItem from="1585477115431" duration="7499000" />
       <workItem from="1585583272524" duration="37000" />
       <workItem from="1585583410868" duration="5791000" />
-      <workItem from="1585848598284" duration="1984000" />
+      <workItem from="1585848598284" duration="2241000" />
+      <workItem from="1585926221319" duration="4261000" />
     </task>
     <task id="LOCAL-00001" summary="feat(config) Add prettier, eslint, npm scripts, parcel and separate to modules">
       <created>1585409016400</created>
@@ -99,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585849621571</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat(Router) Add Reach Router">
+      <created>1585850674154</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585850674154</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,17 +122,22 @@
     <MESSAGE value="feat(filtering) Create hooks for filtering the data" />
     <MESSAGE value="feat(apiData) Get pet data from a backend" />
     <MESSAGE value="feat(apiData) Async calls to Petfinder API, update Pet component" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(apiData) Async calls to Petfinder API, update Pet component" />
+    <MESSAGE value="feat(Router) Add Reach Router" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Router) Add Reach Router" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="722" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585928404730">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="722" y="319" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1585928404730" />
     <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585583296735">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585583296735" />
-    <state x="585" y="75" key="CommitChangelistDialog2" timestamp="1585849621024">
+    <state x="585" y="75" key="CommitChangelistDialog2" timestamp="1585850673720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="75" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1585849621024" />
+    <state x="585" y="75" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1585850673720" />
     <state x="184" y="87" key="DiffContextDialog" timestamp="1585480324765">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -139,10 +154,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1585583458304" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1585480343200">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1585850678942">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585480343200" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585850678942" />
     <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585478052914">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
