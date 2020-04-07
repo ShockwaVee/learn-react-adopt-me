@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99402b8e-210e-4a89-9a4f-8c8869303b5f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+    <list default="true" id="99402b8e-210e-4a89-9a4f-8c8869303b5f" name="Default Changelist" comment="feat(Details) Add ErrorBoundary to Details component">
+      <change afterPath="$PROJECT_DIR$/src/ThemeContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchParams.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchParams.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,9 @@
       <workItem from="1585583272524" duration="37000" />
       <workItem from="1585583410868" duration="5791000" />
       <workItem from="1585848598284" duration="2241000" />
-      <workItem from="1585926221319" duration="4261000" />
+      <workItem from="1585926221319" duration="4863000" />
+      <workItem from="1586010458584" duration="599000" />
+      <workItem from="1586274558124" duration="4628000" />
     </task>
     <task id="LOCAL-00001" summary="feat(config) Add prettier, eslint, npm scripts, parcel and separate to modules">
       <created>1585409016400</created>
@@ -109,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585850674154</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat(Details) Add Details, babel config and Carousel">
+      <created>1585930700655</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585930700655</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat(Details) Add ErrorBoundary to Details component">
+      <created>1586277115690</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586277115690</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +138,9 @@
     <MESSAGE value="feat(apiData) Get pet data from a backend" />
     <MESSAGE value="feat(apiData) Async calls to Petfinder API, update Pet component" />
     <MESSAGE value="feat(Router) Add Reach Router" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Router) Add Reach Router" />
+    <MESSAGE value="feat(Details) Add Details, babel config and Carousel" />
+    <MESSAGE value="feat(Details) Add ErrorBoundary to Details component" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Details) Add ErrorBoundary to Details component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585928404730">
@@ -134,10 +151,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585583296735" />
-    <state x="585" y="75" key="CommitChangelistDialog2" timestamp="1585850673720">
+    <state x="585" y="75" key="CommitChangelistDialog2" timestamp="1586277115312">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="75" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1585850673720" />
+    <state x="585" y="75" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586277115312" />
     <state x="184" y="87" key="DiffContextDialog" timestamp="1585480324765">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -154,13 +171,17 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1585583458304" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1585850678942">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1585930703848">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585850678942" />
-    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585478052914">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585930703848" />
+    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586276500573">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585478052914" />
+    <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1586276500573" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1586278673220">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1586278673220" />
   </component>
 </project>
