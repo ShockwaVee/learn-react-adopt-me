@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99402b8e-210e-4a89-9a4f-8c8869303b5f" name="Default Changelist" comment="feat(Details) Add ErrorBoundary to Details component">
-      <change afterPath="$PROJECT_DIR$/src/ThemeContext.js" afterDir="false" />
+    <list default="true" id="99402b8e-210e-4a89-9a4f-8c8869303b5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Modal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SearchParams.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchParams.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +64,8 @@
       <workItem from="1585848598284" duration="2241000" />
       <workItem from="1585926221319" duration="4863000" />
       <workItem from="1586010458584" duration="599000" />
-      <workItem from="1586274558124" duration="4628000" />
+      <workItem from="1586274558124" duration="4689000" />
+      <workItem from="1586361975094" duration="4371000" />
     </task>
     <task id="LOCAL-00001" summary="feat(config) Add prettier, eslint, npm scripts, parcel and separate to modules">
       <created>1585409016400</created>
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586277115690</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat(Context) Add Context and fix anchor tag">
+      <created>1586279321785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586279321785</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +146,8 @@
     <MESSAGE value="feat(Router) Add Reach Router" />
     <MESSAGE value="feat(Details) Add Details, babel config and Carousel" />
     <MESSAGE value="feat(Details) Add ErrorBoundary to Details component" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(Details) Add ErrorBoundary to Details component" />
+    <MESSAGE value="feat(Context) Add Context and fix anchor tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(Context) Add Context and fix anchor tag" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="319" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585928404730">
@@ -151,10 +158,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="252" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1585583296735" />
-    <state x="585" y="75" key="CommitChangelistDialog2" timestamp="1586277115312">
+    <state x="585" y="75" key="CommitChangelistDialog2" timestamp="1586279321347">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="585" y="75" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586277115312" />
+    <state x="585" y="75" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1586279321347" />
     <state x="184" y="87" key="DiffContextDialog" timestamp="1585480324765">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -167,14 +174,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1585406533397" />
+    <state x="753" y="150" key="RollbackChangesDialog" timestamp="1586364675814">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="753" y="150" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1586364675814" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1585583458304">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1585583458304" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1585930703848">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1586361989108">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1585930703848" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1586361989108" />
     <state x="769" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586276500573">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
